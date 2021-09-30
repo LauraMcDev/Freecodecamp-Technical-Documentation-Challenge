@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <<link rel="stylesheet" href="styles.css">
+    <title>Guide to Web Forms</title>
+  </head>
+
+<nav id = "navbar">
+  <header>Guide to Web Forms</header>
+
+  <ul class = "nav-list">
+
+  <li> <a href = "#Prerequisites" class = "nav-link">Prerequisites</a>
+  </li>
+
+  <li> <a href = "Introductory_guides" class = "nav-link">Introductory guides</a>
+  </li>
+
+  <li> <a href = "#The_different_form_controls" class = "nav-link">The different form controls</a>
+  </li>
+
+
+  <li> <a href = "Form_styling_guides" class = "nav-link">Form styling guides</a>
+  </li>
+
+  <li> <a href = "#Validating_and_submitting_form_data" class="nav-link">Validating and submitting form data</a>
+  </li>
+
+  <li> <a href = "#Advanced_articles" class = "nav-link">Advanced articles</a>
+  </li>
+
+  </ul>
+</nav>
+
+<main id = "main-doc">
+  <header>
+  <h1>Web forms — Working with user data</h1>
+  </header>
+    <p>This module provides a series of articles that will help you master the essentials of web forms. Web forms are a very powerful tool for interacting with users — most commonly they are used for collecting data from users, or allowing them to control a user interface. However, for historical and technical reasons it's not always obvious how to use them to their full potential. In the articles listed below, we'll cover all the essential aspects of Web forms including marking up their HTML structure, styling form controls, validating form data, and submitting data to the server.</p>
+
+  <section class = "main-section" id = "Prerequisites">
+    <header>
+    <h2>Prerequisites</h2>
+    </header>
+     <ul>
+    <li>Before starting this module, you should at least work through our Introduction to HTML. At this point you should find the Introductory guides easy to understand, and also be able to make use of our Basic native form controls guide.</li>
+     <li>Mastering forms however requires more than just HTML knowledge — you also need to learn some specific techniques to style form controls, and some scripting knowledge is required to handle things like validation and creating custom form controls. Therefore, before you look at the other sections listed below we'd recommend that you go away and learn some CSS and JavaScript first.</li>
+    <li>The above text is a good indicator as to why we've put web forms into its own standalone module, rather than trying to mix bits of it into the HTML, CSS, and JavaScript topic areas — form elements are more complex than most other HTML elements, and they also require a close marriage of related CSS and JavaScript techniques to get the most out of them.</li>
+    </ul>
+    </section>
+
+   <section class = "main-section" id = "Introductory_guides">
+     <header>
+     <h2>Introductory guides</h2>
+     </header>
+       <h3>Your first form</h3>
+       <p>he first article in our series provides your very first experience of creating a web form, including designing a simple form, implementing it using the right HTML elements, adding some very simple styling via CSS, and how data is sent to a server.</p>
+       <h3>How to structure a web form</h3>
+       <p>With the basics out of the way, we now look in more detail at the element usd to provide structure and meaning to the different parts of a form.</p>
+    </section>
+
+    <section class = "main-section" id = "The_different_form_controls">
+     <header>
+      <h2>The different form controls</h2>
+      </header>
+      <h3>Basic native form controls</h3>
+      <p>We start off this section by looking at the functionality of the original HTML <code>input</code> types in detail, looking at what options are available to collect different types of data.</p>
+
+      <h3>The HTML5 input types</h3>
+      <p>Here we continue our deep dive into the input element, looking at the additional input types provided when HTML5 was released, and the various UI controls and data collection enhancements they provide. Additionally, we look at the <code>output</code> element.</p>
+
+      <h3>Other form controls</h3>
+      <p>Next we take a look at all the non-input form controls and associated tools, such as
+        <ul>
+        <li>
+        <code>select</code>,
+        </li>
+          <li><code>textarea</code>,</li> <li><code>meter</code>, and </li>
+        <li> <code>progress</code>.</li>
+      </ul>
+      </p>
+
+    </section>
+
+  <section class = "main-section" id = "Form_styling_guides">
+    <header>
+    <h2>Form styling guides</h2>
+    </header>
+      <p>This article provides an introduction to styling forms with CSS, including all the basics you might need to know for basic styling tasks.</p>
+      <h3>Styling web forms</h3>
+    <p>This article provides an introduction to styling forms with CSS, including all the basics you might need to know for basic styling tasks</p>
+
+      <h3>Advanced form styling</h3>
+      <p>Here we look at some more advanced form styling techniques that need to be used when trying to deal with some of the more difficult-to-style form elements.</p>
+      <h3>UI pseudo-classes</h3>
+      <p>An introduction to the UI pseudo-classes enabling HTML form controls to be targeted based on their current state.</p>
+        </section>
+
+    <section class = "main-section" id = "Validating_and_submitting_form_data">
+     <header>
+      <h2>Validating and submitting form data</h2>
+      </header>
+      <h3>Client-side form valuation</h3>
+      <p>Sending data is not enough — we also need to make sure that the data users enter into forms is in the correct format to process it successfully, and that it won't break our applications. We also want to help our users to fill out our forms correctly and not get frustrated when trying to use our apps. Form validation helps us achieve these goals — this article tells you what you need to know.</p>
+
+      <h3>Sending form data</h3>
+      <p>This article looks at what happens when a user submits a form — where does the data go, and how do we handle it when it gets there? We also look at some of the security concerns associated with sending form data.</p>
+
+        </section>
+ <section class = "main-section" id = "Advanced_articles">
+   <header>
+   <h2>Advanced articles</h2>
+   </header>
+        <p>The following articles aren't essential to the learning pathway, but they'll prove interesting and useful when you've mastered the above techniques and want to know more.</p>
+        <h3>How to build custom form controls</h3>
+
+        <p>You'll come across some cases where the native form widgets just don't provide what you need, e.g. because of styling or functionality. In such cases, you may need to build your own form widget out of raw HTML. This article explains how you'd do this and the considerations you need to be aware of when doing so, with a practical case study.</p>
+        <h3>Sending forms through JavaScript</h3>
+
+        <p>This article looks at ways to use a form to assemble an HTTP request and send it via custom JavaScript, rather than standard form submission. It also looks at why you'd want to do this, and the implications of doing so. (See also <code>Using FormData objects</code>.)</p>
+        <h3>CSS property compatibility table for form controls</h3>
+        <p>This last article provides a handy reference allowing you to look up what CSS properties are compatible with what form elements.</p>
+
+      </section>
+
+
+</html>
