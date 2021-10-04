@@ -1,12 +1,33 @@
-.nav-list {
+#navbar {
   display: block;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 110px;
+  min-width: 110px;
+  height:250px;
+  position: fixed;
+  overflow: auto;
+}
+
+main {
+  display: grid;
+}
+
+@media only screen and (max-width: 768px) {
+
 }
 
 /* li a {
  display: block;
 }
+
+Main sections copied:
+
+<section class = "main-section" id = "Prerequisites">
+section class = "main-section" id = "Introductory_guides">
+<section class = "main-section" id = "The_different_form_controls">
+<section class = "main-section" id = "Form_styling_guides">
+<section class = "main-section" id = "Validating_and_submitting_form_data">
+<section class = "main-section" id = "Advanced_articles">
+
 */
